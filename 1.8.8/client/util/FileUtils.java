@@ -1,6 +1,7 @@
 
 package client.util;
 
+import client.Client;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -92,7 +93,7 @@ public final class FileUtils {
     }
 
     public static File getConfigDir() {
-        File file = new File(Minecraft.getMinecraft().mcDataDir, "Obsidian");
+        File file = new File(Minecraft.getMinecraft().mcDataDir, Client.NAME);
         if (!file.exists()) {
             file.mkdir();
         }
