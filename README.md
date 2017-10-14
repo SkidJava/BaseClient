@@ -2,7 +2,7 @@
 If you are coding minecraft hack client from scratch, these will be very useful
 
 # Needs libs
-[Javassist](www.javassist.org/)
+[Javassist](www.javassist.org/)  
 [Reflections](https://github.com/ronmamo/reflections)
 
 # License
